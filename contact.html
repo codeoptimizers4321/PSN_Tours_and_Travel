@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Contact
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                font-family: "Trirong", serif;
+            }
+            div{
+                display: inline-block;
+                text-align: left;
+                font-size: 20px;
+                background-color: rgb(177, 219, 205);
+                height: 200px;
+                width: 25%;
+                padding: 20px 10px 20px 10px;
+                margin: 10px 10px 30px 40px;
+            }
+            h4{
+                text-align: center;
+                color: rgb(117, 5, 5);
+                font-size:40px ;
+            }
+            .form_heading{
+           
+            font-size: 40px;
+            font-weight: bold;
+            color: rgb(117, 5, 5);
+            text-shadow: 5px 5px 5px rgb(130, 135, 136);
+            height: 200x;
+            width: 100%;
+            text-align: center;
+           
+        }
+
+        table{
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+        fieldset{
+           margin-left: 255px;
+           padding-left: 50px;
+        }
+            
+            .list-group-item{
+                color: black;
+                text-align: center;
+                padding-left: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>Contact us</h4>
+        <div>
+            <a href="#" class="list-group-item"><i class="fa fa-home fa-fw" aria-hidden="true" ></i></a>
+            <h2>Address</h2>
+            <p>Office-302, 3 rd. Floor, Shiv Complex, 
+            <br>Near D-Mart, Hadapdsar, Pune-411019</p>
+        </div>
+        <div>
+            <a href="#" class="list-group-item"><i class="fa fa-phone fa-fw" aria-hidden="true"></i></a>
+            <h2>Contact No.</h2>
+            <p>+91 78569 85454, +91 98125 48754 
+            <br>+91 84545 18784, +91 94888 15482</p>
+        </div>
+        <div>
+            <a href="#" class="list-group-item"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></a>
+            <h2>Email</h2>
+            <p>psntoursntravel@gmail.com 
+            <br>psntoursandtravel@yaahoo.com</p>
+        </div>
+        <fieldset style="width: 700px;">
+            <legend style="text-align: center;">
+                <span class="form_heading">Enquiry Form</span>
+            </legend>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="fName">Name</label></td>
+                    <td><input type="text" id="fName" placeholder="Your Name" size="40"required autofocus></td>
+                </tr>
+                <tr>
+                    <td><label for="contact">Contact No.</label></td>
+                    <td><select>
+                        <option>+91</option>
+                        <option>+101</option>
+                        <option>+102</option>
+                        <option>+02</option>
+                        <option>+56</option>
+                    </select><input type="number" id="contact" max="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" placeholder="Your Email ID" size="40"></td>
+                </tr>
+                <tr>
+                    <td><label for="messgae">Message</label></td>
+                    <td><textarea cols="40" rows="7" placeholder="Your Message"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="Submit"></td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    </body>
+</html>

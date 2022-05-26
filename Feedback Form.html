@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title> Feedback Form</title>
+       <style>
+           h2,h1{
+               color: brown;
+           }
+           form{
+               text-align: center;
+               border: 5px solid blueviolet;
+               margin-left: 220px;
+               margin-right:220px;
+               padding-left: 50px;
+               padding-right: 50px;
+               background-color: rgb(218, 241, 249);
+               font-family: 'Times New Roman', Times, serif;
+               
+           }
+           .name{
+               height: 30px;
+               width: 400px;
+               margin-left: 50px;
+           }
+           .Phone{
+               margin-top: 15px;
+               height: 30px;
+               width: 400px;
+               margin-left: 50px;
+           }
+           .email{
+               margin-top: 15px;
+               height: 30px;
+               width: 400px;
+               margin-left: 50px;
+           }
+          .radio{
+            
+               margin-top: 15px;
+               margin-left: 50px;
+          }
+          .feedback{
+            margin-top: 15px;
+            width: 400px;
+            margin-left: 50px;
+          }
+          .table{
+            width: 100%;
+            font-size: large;
+            max-height: max-content;
+            margin-bottom: 30px;
+        }
+        body{
+            background-image: url(Resource/Back.jpg);
+        }
+       input[type="submit"] {
+            border-radius: 10px;
+            padding:5px 15px; 
+            width:20%;
+            height: 20%;
+            border-color: blue;
+            font-family: "Sofia", sans-serif;
+            color: rgb(9, 9, 148);
+            margin-bottom: 30px;
+        }
+        input[type="Submit"]:hover{
+            background-color: burlywood;
+        }
+        input[type="Reset"] {
+            border-radius: 10px;
+            padding:5px 15px; 
+            width:20%;
+            height: 20%;
+            border-color: blue;
+            font-family: "Sofia", sans-serif;
+            color: rgb(9, 9, 148);
+            margin-bottom: 30px;
+            margin-left: 20px;
+        }
+        input[type="Reset"]:hover{
+            background-color: burlywood;
+        }
+       </style>
+    </head>
+    <body>
+        <form> 
+            <h1> Tour Feedback Form </h1>
+            <p> We would love to hear any feedback from our customers so that we can further and continue enhancing and improving our services. Thank you!</p>
+            <table>
+                <tr>
+                    <td> <label for="fname"> Your Name</label></td>
+                    <td> <input type="text" placeholder=" Full Name" maxlength="200" autofocus required id="fname" class="name"> </td>
+                  
+                </tr>
+                <tr>
+                    <td><label for="phone">Your Phone Number </label> </td>
+                    <td> <input type="number" placeholder="(000) 000-0000" id="Phone" class="Phone"></td>
+                </tr>
+                <tr>
+                    <td> <label for="email"> Your Email</label></td>
+                    <td> <input type="email" placeholder="Ex.abc@gmail.com" maxlength="200" id="email" class="email"> </td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Tour Name</label> </td>
+                    <td> <input type="number"  id="Phone" class="Phone"></td>
+                </tr>
+                <tr>
+                    <td> Tour Type </td>
+                    <td> 
+                        <input type="radio" class="radio">
+                        <label> Domestic</label>
+                        <input type="radio" class="radio">
+                       <label> International</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="feedback"> Feedback/Suggestion</label></td>
+                    <td> <textarea cols="35" rows="7" id="feedback" class="feedback"></textarea ></td>
+                  
+                </tr>
+            </table>
+            <h2> Please rate us using the following criteria</h2>
+            <table class="table"> 
+              <tr> 
+                    <td> </td>
+                    <td> Very Satisfied</td>
+                    <td>  Satisfied</td>
+                    <td> Somewhat Satisfied </th>
+                    <td> Not Satisfied </td>
+                </tr>
+                    <tr>
+                        <td> Accommodation </td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td> Transport </td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td> Food </td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td> Places </td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Professionalism </td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Costs</td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Safety </td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                    <td>Registration process </td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                    <td>Payment process </td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                        <td> <input type="checkbox"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="submit"> 
+            <input type="submit" value="Submit">
+            <input type="Reset" value="Reset">
+        </div>
+        </form>
+    </body>
+</html>
